@@ -4818,26 +4818,42 @@ a img {
 }
 
 #particles-js {
-    background: #1488CC;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background-image: url('https://wallpaperaccess.com/full/5651999.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
     display: flex;
     vertical-align: bottom;
     width: 100%;
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 #particles-js .particles-js-canvas-el {
     width: 100% !important;
-    height: 100vh !important
+    height: 100vh !important;
 }
+
+.header {
+    /* Your header styles go here */
+    color: white; /* Example text color */
+}
+
+.site-title {
+    /* Your site title styles go here */
+    font-size: 2em; /* Example font size */
+}
+
+.site-description {
+    /* Your site description styles go here */
+    font-size: 1.2em; /* Example font size */
+}
+
+.header-icons {
+    /* Your header icons styles go here */
+}
+
+/* Add more styles as needed for your specific design */
+
 
 .header {
     z-index: 1;
